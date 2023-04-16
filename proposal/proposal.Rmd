@@ -1,0 +1,82 @@
+---
+title: UK gender gap
+author: 
+  - Şengül Hasan
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 20080502, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+
+# Important Information About Midterm
+
+\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
+
+**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
+
+**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
+
+\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
+
+# Introduction
+The object of my work is income inequality between men and women in the UK. I found data from (https://github.com/rfordatascience/tidytuesday/tree/master/data/2022) for myself 'UK gender pay gap'. First, I deleted the rows and columns that had no answer. Then I edited the table by deleting the rows and columns that would not work for me. Afterward, I found 4 articles related to the subject. I've created a bibliography about them. I learned a lot while reading the articles. In a study conducted by the University of London, he claims that one of the reasons for income inequality between men and women is measurement methods.
+
+Finally, I will try to find the answer to the question, do women earn equal wages with men in business life in the United Kingdom, by proving and citing the articles.
+
+The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+
+In this section, mention the purpose and importance of your work in a few paragraphs.
+
+## Literature Review
+
+I found many articles in the literature search. I have selected 4 articles that will be useful to my question. These articles, which contain many important numerical data, will guide my hypothesis. Although many articles have said the same things at the end, as I mentioned at the beginning, they reveal many striking data numerically.
+
+For example, according to a study by the House of Commons, women are more likely to work part-time jobs than men. This increases the income inequality between men and women. According to house of commons, this difference was measured as 8.3% between full-time working men and women. Another striking example is 'Median pay for
+all employees was 14.9% less for women than for men in April 2022.'
+this article gives many numerical examples like this and contributes greatly to my question.
+
+Another research I found belongs to National Statistics. The research cited a 1975 law 'the average woman working full-time could lose out on £330,000, in comparison with men's earnings. National statistics, like other articles, emphasizes that sometimes incorrect results are obtained due to not using the correct measurement techniques.
+
+The other article I found is a research conducted by the University of London in 2018. When I look at it in detail, it is a much more technical article compared to other studies.
+
+My latest research is from Oxford and it talks about child labor as well as gender. In this research, they benefit from 2 big data. one is the UK Household Longitudinal Study (UKHLS) and the other is the British Household Panel Survey (BHPS). These 2 big data have shown a great way to Oxford's research and they refer to these 2 data a lot.
+
+
+As a result, I have included 4 articles that are suitable and very useful for my research. I found a lot of useful information even when I first read it, I believe I will find a definite and correct answer to my question when I have completely completed my research.
+
+
+
+**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+
+**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
